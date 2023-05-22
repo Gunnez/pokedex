@@ -9,7 +9,7 @@ function mudarTema(){
     const temaAtual = document.querySelector('body')
     temaAtual.classList.toggle('modo-escuro')
     if(temaAtual.className == 'modo-escuro')
-        imagemBotao.src ='./imagens/moon.png'
+        imagemBotao.src ='./src/imagens/moon.png'
     else
-        imagemBotao.src ='./imagens/sun.png'
+        imagemBotao.src ='./src/imagens/sun.png'
 }
